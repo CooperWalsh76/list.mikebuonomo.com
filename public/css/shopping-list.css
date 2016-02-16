@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    font-size: 14px;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+.half-indent {
+    margin-left: 15px;
+}
+
+.middle-align-out {
+    position: relative;
+    height: 100%;
+}
+    .middle-align-out .middle-align-in {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        max-width: 600px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+    }
+
+.panel {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+#list-items-well .panel-body,
+#choose-list-well .panel-body {
+    padding: 0;
+}
+
+.list-group {
+    margin-bottom: 0;
+}
+
+.list-group-item:first-child {
+    border-top: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom: 0;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-radius: 0;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+.list-group-item-heading {
+    font-size: 26px;
+}
+
+i {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+i.icon {
+    font-size: 34px;
+}
+
+table {
+    width: 100%;
+}
+
+.checkbox-col {
+    width: 30px;
+}
+
+.listname-col {
+    width: calc(100% - 100px);
+}
+
+.edit-col {
+    width: 70px;
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.listname-col {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.listname-col.item-description {
+    font-weight:normal;
+    font-size: 12px;
+}
+
+* {
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+         -o-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+#choose-list-well .listname-col {
+    width: calc(100% - 70px);
+    cursor: pointer;
+}
+
+#choose-list-well .edit-col {
+    width: 70px;
+}
